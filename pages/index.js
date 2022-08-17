@@ -381,7 +381,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="phase__side--right">
-                  <img src="/pikeman.png" alt="ball" />
+                  <img src="/Pikeman.png" alt="ball" />
                   {/* <img src="/readmap1.png" alt="ball" /> */}
                   {/* <img src="/coin.gif" alt="ball" /> */}
                 </div>
@@ -399,7 +399,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="phase__side--left">
-                  <img src="/knight.png" alt="ball" />
+                  <img src="/Knight.png" alt="ball" />
                 </div>
                 <div className='phase__content'>
                   <div className="title__phase">Phase 03</div>
@@ -418,7 +418,7 @@ export default function Home() {
                   <img src="/raid.png" alt="ball" />
                 </div>
                 <div className="phase__side--right">
-                  <img src="/wizard.png" alt="ball" />
+                  <img src="/Wizard.png" alt="ball" />
                   {/* <img src="/coin.gif" alt="ball" /> */}
                 </div>
                 <div className='phase__content'>
