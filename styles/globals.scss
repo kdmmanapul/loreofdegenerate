@@ -294,6 +294,7 @@ section {
 }
 .introduction,
 .train,
+.levelup,
 .farm,
 .roadmap,
 .team {
@@ -336,7 +337,7 @@ section {
     padding: 2rem;
   }
 }
-.allies {
+.classes {
   .card-allies {
     text-align: center;
     display: flex;
@@ -386,7 +387,7 @@ section {
     width: 100%;
   }
 }
-.pillage {
+.dungeons {
   .card-pillage {
     background-color: #1d1d1d;
     margin: 0.5rem;

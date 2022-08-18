@@ -46,15 +46,15 @@ export default function Home() {
     },
     {
       name: `classes`,
-      link: `#allies`
+      link: `#classes`
     },
     {
       name: `levelup`,
-      link: `#train`
+      link: `#levelup`
     },
     {
-      name: `dungeoons & raids`,
-      link: `#pillage`
+      name: `dungeons & raids`,
+      link: `#dungeons`
     },
     {
       name: `roadmap`,

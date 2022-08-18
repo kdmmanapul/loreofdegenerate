@@ -136,6 +136,7 @@ export default function Home() {
       answar: `The P2E Ecosystem is already being develop and being worked on. The Tokenomics of the $LDEXP will be provided in due time.`
     },
   ];
+  
   return (
     <div>
       <section className="home" id="home">
@@ -145,13 +146,13 @@ export default function Home() {
           <div className="buttons">
             <button
               className="btn"
-              onClick={() => window.open("https://game.loreofdegenerates.com")}
+              // onClick={() => window.open("https://game.loreofdegenerates.com")}
             >
               <span>PLAY GAME</span>
             </button>
             <button
               className="btn btn-primary"
-              onClick={() => window.open("https://mint.loreofdegenerates.com")}
+              // onClick={() => window.open("https://mint.loreofdegenerates.com")}
             >
               <span>MINT</span>
             </button>
@@ -180,7 +181,7 @@ export default function Home() {
           </div> */}
         </div>
       </section>
-      <section className="allies" id="allies">
+      <section className="classes" id="classes">
         <div className="container">
           <div className="title"> CLASSES </div>
           <div className="row">
@@ -250,7 +251,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="train" id="train">
+      <section className="levelup" id="levelup">
         <div className="container">
           <div className="title"> LEVEL UP </div>
           <p>Do dungeons and fight your way to the end to gain experience and level up.</p>
@@ -258,7 +259,7 @@ export default function Home() {
           {/* <img src="/train.gif" alt="train" /> */}
         </div>
       </section>
-      <section className="pillage" id="pillage">
+      <section className="dungeons" id="dungeons">
         <div className="container">
           <div className="title"> DUNGEONS &amp; RAIDS </div>
           <p>There are different dungeons that will be on the LoreOfDegenerates Game.</p>
