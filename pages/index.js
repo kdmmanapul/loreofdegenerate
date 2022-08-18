@@ -146,13 +146,13 @@ export default function Home() {
           <div className="buttons">
             <button
               className="btn"
-              // onClick={() => window.open("https://game.loreofdegenerates.com")}
+              onClick={() => window.open("https://game.loreofdegenerates.com")}
             >
               <span>PLAY GAME</span>
             </button>
             <button
               className="btn btn-primary"
-              // onClick={() => window.open("https://mint.loreofdegenerates.com")}
+              onClick={() => window.open("https://mint.loreofdegenerates.com")}
             >
               <span>MINT</span>
             </button>
