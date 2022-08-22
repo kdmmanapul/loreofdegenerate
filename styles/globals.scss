@@ -331,6 +331,37 @@ section {
     }
   }
 }
+.gamepage {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7) 80%,
+      rgba(234, 217, 95, 0.4)
+    ),
+    url('../public/home.png');
+  background-repeat: no-repeat;
+  // filter: blur(3px);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .content-gamepage {
+    text-align: center;
+    margin-top: 1rem;
+    img {
+      width: 25rem;
+    }
+    p {
+      font-size: 1.25rem;
+      margin: 0;
+      font-family: 'MyBold';
+    }
+    .buttons {
+      display: flex;
+      margin-top: 3rem;
+      justify-content: center;
+    }
+  }
+}
 .introduction {
   img {
     width: 100%;

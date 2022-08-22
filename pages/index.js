@@ -1,4 +1,6 @@
 import { Faq } from '../components/faq'
+import Footer from '../components/footer'
+import Link from 'next/link';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 import "swiper/css";
@@ -136,7 +138,7 @@ export default function Home() {
       answar: `The P2E Ecosystem is already being develop and being worked on. The Tokenomics of the $LDEXP will be provided in due time.`
     },
   ];
-  
+
   return (
     <div>
       <section className="home" id="home">
@@ -144,12 +146,14 @@ export default function Home() {
           <img src="/logo-4.png" className="logo" alt="logo" />
           <p>A Gamified Community of Degens</p>
           <div className="buttons">
+            <Link  href="/gamepage">
             <button
               className="btn"
-              onClick={() => window.open("https://game.loreofdegenerates.com")}
+              // onClick={() => window.open("https://game.loreofdegenerates.com")}
             >
               <span>PLAY GAME</span>
             </button>
+            </Link>
             <button
               className="btn btn-primary"
               onClick={() => window.open("https://mint.loreofdegenerates.com")}
@@ -514,6 +518,7 @@ export default function Home() {
           </Swiper>
         </div>
       </section> */}
+      <Footer />
     </div>
   )
 }
