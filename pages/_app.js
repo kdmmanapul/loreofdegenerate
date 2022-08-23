@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
         <span className="loader"></span>
       </div>} */}
 
-      <Navbar />
+      {/* <Navbar /> */}
       <Component {...pageProps} />
       {/* <Footer /> */}
     </div>

@@ -1,5 +1,6 @@
 import { Faq } from '../components/faq'
 import Footer from '../components/footer'
+import Navbar from '../components/navbar'
 import Link from 'next/link';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
@@ -141,6 +142,7 @@ export default function Home() {
 
   return (
     <div>
+      <Navbar />
       <section className="home" id="home">
         <div className="content-home">
           <img src="/logo-4.png" className="logo" alt="logo" />
